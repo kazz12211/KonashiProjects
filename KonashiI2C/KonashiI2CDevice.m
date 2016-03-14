@@ -24,6 +24,14 @@
     return self;
 }
 
+- (BOOL)begin {
+    return NO;
+}
+
+- (void)end {
+    
+}
+
 - (BOOL)writeData:(NSData *) data {
     
     if([Konashi i2cStartCondition] == KonashiResultFailure)

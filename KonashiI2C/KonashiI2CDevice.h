@@ -18,6 +18,9 @@
 
 - (id)initWithAddress:(unsigned char)address;
 
+- (BOOL)begin;
+- (void)end;
+
 - (BOOL)writeData:(NSData *)data registerAddress:(unsigned char)regAddr;
 - (BOOL)writeBytes:(unsigned char *)bytes length:(NSUInteger)length registerAddress:(unsigned char)regAddr;
 - (BOOL)writeByte:(unsigned char)aByte registerAddress:(unsigned char)regAddr;

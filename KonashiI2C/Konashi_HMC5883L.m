@@ -24,6 +24,7 @@ char DirNames[16][4] = {" N ","NNE"," NE","ENE"," E ","ESE"," SE","SSE"," S ","S
 
 - (id)init {
     self = [super initWithAddress:HMC5883L_DEVICE_ADDRESS];
+    [self configureDefault];
     return self;
 }
 

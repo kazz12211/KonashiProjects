@@ -48,6 +48,8 @@
 		F80E703C1C96963700DA8D14 /* KonashiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E70171C96963700DA8D14 /* KonashiUtils.m */; };
 		F80E703E1C96969300DA8D14 /* KonashiI2CDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E703D1C96969300DA8D14 /* KonashiI2CDevice.m */; };
 		F80E70421C96A34700DA8D14 /* Konashi_HMC5883L.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E70411C96A34700DA8D14 /* Konashi_HMC5883L.m */; };
+		F80E70441C96B27700DA8D14 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80E70431C96B27700DA8D14 /* CoreBluetooth.framework */; };
+		F80E70471C96C0E200DA8D14 /* Konashi_L3GD20.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,9 @@
 		F80E703F1C9696C800DA8D14 /* KonashiI2CDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KonashiI2CDevice.h; sourceTree = "<group>"; };
 		F80E70401C96A32500DA8D14 /* Konashi_HMC5883L.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Konashi_HMC5883L.h; sourceTree = "<group>"; };
 		F80E70411C96A34700DA8D14 /* Konashi_HMC5883L.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_HMC5883L.m; sourceTree = "<group>"; };
+		F80E70431C96B27700DA8D14 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F80E70451C96BF2700DA8D14 /* Konashi_L3GD20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Konashi_L3GD20.h; sourceTree = "<group>"; };
+		F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_L3GD20.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80E70441C96B27700DA8D14 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +137,7 @@
 		F80E6FC91C9694BC00DA8D14 = {
 			isa = PBXGroup;
 			children = (
+				F80E70431C96B27700DA8D14 /* CoreBluetooth.framework */,
 				F80E6FD51C9694BC00DA8D14 /* KonashiI2C */,
 				F80E6FE11C9694BD00DA8D14 /* KonashiI2CTests */,
 				F80E6FD41C9694BC00DA8D14 /* Products */,
@@ -155,6 +162,8 @@
 				F80E703F1C9696C800DA8D14 /* KonashiI2CDevice.h */,
 				F80E70401C96A32500DA8D14 /* Konashi_HMC5883L.h */,
 				F80E70411C96A34700DA8D14 /* Konashi_HMC5883L.m */,
+				F80E70451C96BF2700DA8D14 /* Konashi_L3GD20.h */,
+				F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */,
 			);
 			path = KonashiI2C;
 			sourceTree = "<group>";
@@ -383,6 +392,7 @@
 				F80E701B1C96963700DA8D14 /* CBService+Konashi.m in Sources */,
 				F80E70351C96963700DA8D14 /* KNSHandlerManager.m in Sources */,
 				F80E70191C96963700DA8D14 /* CBPeripheral+Konashi.m in Sources */,
+				F80E70471C96C0E200DA8D14 /* Konashi_L3GD20.m in Sources */,
 				F80E70331C96963700DA8D14 /* KNSCentralManager.m in Sources */,
 				F80E701F1C96963700DA8D14 /* KNSCentralManager+UI.m in Sources */,
 				F80E70211C96963700DA8D14 /* Konashi+ACDrive.m in Sources */,
