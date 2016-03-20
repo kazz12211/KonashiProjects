@@ -52,6 +52,8 @@
 		F80E70471C96C0E200DA8D14 /* Konashi_L3GD20.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */; };
 		F8C956CC1C9EB57D00F8DEA5 /* Konashi_BME280.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C956CB1C9EB57D00F8DEA5 /* Konashi_BME280.h */; };
 		F8C956CE1C9EB74C00F8DEA5 /* Konashi_BME280.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C956CD1C9EB74C00F8DEA5 /* Konashi_BME280.m */; };
+		F8C956D01C9EC4C400F8DEA5 /* Konashi_AQM1602XA_LCD.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C956CF1C9EC4C400F8DEA5 /* Konashi_AQM1602XA_LCD.h */; };
+		F8C956D21C9EC54200F8DEA5 /* Konashi_AQM1602XA_LCD.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C956D11C9EC54200F8DEA5 /* Konashi_AQM1602XA_LCD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,8 @@
 		F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_L3GD20.m; sourceTree = "<group>"; };
 		F8C956CB1C9EB57D00F8DEA5 /* Konashi_BME280.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi_BME280.h; sourceTree = "<group>"; };
 		F8C956CD1C9EB74C00F8DEA5 /* Konashi_BME280.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_BME280.m; sourceTree = "<group>"; };
+		F8C956CF1C9EC4C400F8DEA5 /* Konashi_AQM1602XA_LCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi_AQM1602XA_LCD.h; sourceTree = "<group>"; };
+		F8C956D11C9EC54200F8DEA5 /* Konashi_AQM1602XA_LCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_AQM1602XA_LCD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */,
 				F8C956CB1C9EB57D00F8DEA5 /* Konashi_BME280.h */,
 				F8C956CD1C9EB74C00F8DEA5 /* Konashi_BME280.m */,
+				F8C956CF1C9EC4C400F8DEA5 /* Konashi_AQM1602XA_LCD.h */,
+				F8C956D11C9EC54200F8DEA5 /* Konashi_AQM1602XA_LCD.m */,
 			);
 			path = KonashiI2C;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 				F80E701E1C96963700DA8D14 /* KNSCentralManager+UI.h in Headers */,
 				F80E701A1C96963700DA8D14 /* CBService+Konashi.h in Headers */,
 				F80E702A1C96963700DA8D14 /* KNSKonashiPeripheralImpl.h in Headers */,
+				F8C956D01C9EC4C400F8DEA5 /* Konashi_AQM1602XA_LCD.h in Headers */,
 				F80E70281C96963700DA8D14 /* KonashiJavaScriptBindingsProtocol.h in Headers */,
 				F80E70301C96963700DA8D14 /* KNSPeripheralImplProtocol.h in Headers */,
 				F80E70311C96963700DA8D14 /* KNSPeripheralImpls.h in Headers */,
@@ -409,6 +416,7 @@
 				F80E702D1C96963700DA8D14 /* KNSKoshianPeripheralImpl.m in Sources */,
 				F80E702B1C96963700DA8D14 /* KNSKonashiPeripheralImpl.m in Sources */,
 				F80E70271C96963700DA8D14 /* Konashi+JavaScriptBindings.m in Sources */,
+				F8C956D21C9EC54200F8DEA5 /* Konashi_AQM1602XA_LCD.m in Sources */,
 				F80E703E1C96969300DA8D14 /* KonashiI2CDevice.m in Sources */,
 				F80E70231C96963700DA8D14 /* Konashi+ADC.m in Sources */,
 				F80E702F1C96963700DA8D14 /* KNSPeripheralBaseImpl.m in Sources */,
