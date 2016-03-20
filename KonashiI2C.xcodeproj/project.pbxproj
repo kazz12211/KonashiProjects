@@ -50,6 +50,8 @@
 		F80E70421C96A34700DA8D14 /* Konashi_HMC5883L.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E70411C96A34700DA8D14 /* Konashi_HMC5883L.m */; };
 		F80E70441C96B27700DA8D14 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80E70431C96B27700DA8D14 /* CoreBluetooth.framework */; };
 		F80E70471C96C0E200DA8D14 /* Konashi_L3GD20.m in Sources */ = {isa = PBXBuildFile; fileRef = F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */; };
+		F8C956CC1C9EB57D00F8DEA5 /* Konashi_BME280.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C956CB1C9EB57D00F8DEA5 /* Konashi_BME280.h */; };
+		F8C956CE1C9EB74C00F8DEA5 /* Konashi_BME280.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C956CD1C9EB74C00F8DEA5 /* Konashi_BME280.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		F80E70431C96B27700DA8D14 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		F80E70451C96BF2700DA8D14 /* Konashi_L3GD20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Konashi_L3GD20.h; sourceTree = "<group>"; };
 		F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_L3GD20.m; sourceTree = "<group>"; };
+		F8C956CB1C9EB57D00F8DEA5 /* Konashi_BME280.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Konashi_BME280.h; sourceTree = "<group>"; };
+		F8C956CD1C9EB74C00F8DEA5 /* Konashi_BME280.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Konashi_BME280.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 				F80E70411C96A34700DA8D14 /* Konashi_HMC5883L.m */,
 				F80E70451C96BF2700DA8D14 /* Konashi_L3GD20.h */,
 				F80E70461C96C0E200DA8D14 /* Konashi_L3GD20.m */,
+				F8C956CB1C9EB57D00F8DEA5 /* Konashi_BME280.h */,
+				F8C956CD1C9EB74C00F8DEA5 /* Konashi_BME280.m */,
 			);
 			path = KonashiI2C;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				F80E70221C96963700DA8D14 /* Konashi+ADC.h in Headers */,
 				F80E70381C96963700DA8D14 /* Konashi-Prefix.pch in Headers */,
 				F80E70181C96963700DA8D14 /* CBPeripheral+Konashi.h in Headers */,
+				F8C956CC1C9EB57D00F8DEA5 /* Konashi_BME280.h in Headers */,
 				F80E70361C96963700DA8D14 /* KNSPeripheral.h in Headers */,
 				F80E70201C96963700DA8D14 /* Konashi+ACDrive.h in Headers */,
 				F80E702C1C96963700DA8D14 /* KNSKoshianPeripheralImpl.h in Headers */,
@@ -397,6 +404,7 @@
 				F80E701F1C96963700DA8D14 /* KNSCentralManager+UI.m in Sources */,
 				F80E70211C96963700DA8D14 /* Konashi+ACDrive.m in Sources */,
 				F80E70421C96A34700DA8D14 /* Konashi_HMC5883L.m in Sources */,
+				F8C956CE1C9EB74C00F8DEA5 /* Konashi_BME280.m in Sources */,
 				F80E703C1C96963700DA8D14 /* KonashiUtils.m in Sources */,
 				F80E702D1C96963700DA8D14 /* KNSKoshianPeripheralImpl.m in Sources */,
 				F80E702B1C96963700DA8D14 /* KNSKonashiPeripheralImpl.m in Sources */,
@@ -588,6 +596,7 @@
 				F80E6FE91C9694BD00DA8D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80E6FEA1C9694BD00DA8D14 /* Build configuration list for PBXNativeTarget "KonashiI2CTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +605,7 @@
 				F80E6FEC1C9694BD00DA8D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
